@@ -39,12 +39,12 @@ public class A implements ApplicationContextAware, BeanPostProcessor {
 		return applicationContext;
 	}
 
-	@Override
+	/*@Override
 	public String toString() {
 		return "A{" +
 				"name='" + name + '\'' +
 				'}';
-	}
+	}*/
 
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {

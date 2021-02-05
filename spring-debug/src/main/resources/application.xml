@@ -21,6 +21,7 @@
 	<bean id="a" class="com.lucas.beans.A" init-method="init"/>
 	<bean id="bbb" class="com.lucas.beans.B"/>
 	<bean class="com.lucas.postprocessor.MyBeanFactoryPostProcessor"/>
+	<bean id="aFactoryBean" class="com.lucas.factory.AFactoryBean"/>
 
 
 </beans>
