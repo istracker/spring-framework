@@ -14,7 +14,6 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 
-    //这个也要加上，上面的图片没有，如果不加这个会报错，关于什么log找不到的错误
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
     compile(project(":spring-beans"))
     compile(project(":spring-core"))

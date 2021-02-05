@@ -12,5 +12,15 @@
 
 	<context:component-scan base-package="com.lucas"/>
 
+	<bean id="user" class="com.lucas.beans.User">
+		<property name="name" value="张三" />
+		<property name="age" value="19"/>
+		<property name="gender" value="男"/>
+ 	</bean>
+
+	<bean id="a" class="com.lucas.beans.A" init-method="init"/>
+	<bean id="bbb" class="com.lucas.beans.B"/>
+	<bean class="com.lucas.postprocessor.MyBeanFactoryPostProcessor"/>
+
 
 </beans>
